@@ -1,4 +1,4 @@
-package com.github.joostvdg.mavenpipelinehelper;
+package com.github.joostvdg.jx.demo;
 
 import io.micronaut.runtime.Micronaut;
 

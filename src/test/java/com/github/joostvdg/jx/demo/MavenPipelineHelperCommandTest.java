@@ -1,4 +1,4 @@
-package com.github.joostvdg.mavenpipelinehelper;
+package com.github.joostvdg.jx.demo;
 
 import io.micronaut.configuration.picocli.PicocliRunner;
 import io.micronaut.context.ApplicationContext;
@@ -22,7 +22,7 @@ public class MavenPipelineHelperCommandTest {
             PicocliRunner.run(MavenPipelineHelperCommand.class, ctx, args);
 
             // maven-pipeline-helper
-            assertTrue(baos.toString().contains("Hi!"));
+            assertTrue(baos.toString().contains("Hello World!"));
         }
     }
 }
