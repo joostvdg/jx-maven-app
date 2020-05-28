@@ -189,4 +189,11 @@
       </plugins>
     </pluginManagement>
   </build>
+    <repositories>
++    <repository>
++      <id>github-jx-maven-lib</id>
++      <name>GitHub OWNER Apache Maven Packages</name>
++      <url>https://maven.pkg.github.com/joostvdg/jx-maven-lib</url>
++    </repository>
+  </repositories>
 </project>
